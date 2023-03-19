@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  webapp:
+    stdin_open: "true"
+    tty: "true"
+    image: react:v1
+    container_name: reactjs
+    ports:
+      - "80:3000"
